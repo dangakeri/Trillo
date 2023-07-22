@@ -5,7 +5,6 @@
 }
 
 // searchbox
-
 .search{
     flex: 0 0 40%;
 
@@ -33,7 +32,6 @@
             font-weight: 100;
             color: var(--color-Grey-light-4);
         }
-
     }
 
     &__input:focus + &__button{
