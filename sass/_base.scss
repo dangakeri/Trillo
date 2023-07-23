@@ -15,6 +15,8 @@ Grey dark 2: #777
 Grey dark 3: #999
 
 */
+$bp-largest:75em; //1200px
+$bp-large:68.75em; //1100px
 :root {
   --color-primary: #eb2f64;
   --color-primary-light: #ff3366;
@@ -47,6 +49,9 @@ Grey dark 3: #999
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  @media only screen and (max-width:$bp-large){
+    font-size: 50%;
+  }
 }
 body {
   font-family: "open Sans", sans-serif;
